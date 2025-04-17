@@ -9,7 +9,7 @@ public class matakuliah {
         this.SKS = sks;
     }
     void TampilMataKuliah () {
-        System.out.println("Kode MK: " + KodeMK + "Nama MK: " + NamaMK + "Sks: " + SKS);
+        System.out.println("Kode MK: " + KodeMK + " Nama MK: " + NamaMK + " Sks: " + SKS);
     }
 }
 

@@ -9,7 +9,7 @@ public class Mahasiswa {
         this.prodi = prodi;
     }
     void TampilMahasiswa() {
-        System.out.println("nim: " + nim + "nama: " + nama + "prodi: " + prodi);
+        System.out.println("nim: " + nim + " nama: " + nama + " prodi: " + prodi);
     }
 }
     

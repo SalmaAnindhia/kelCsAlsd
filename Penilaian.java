@@ -20,14 +20,9 @@ public class Penilaian{
     }
 
     void tampilPenilaian() {
-        System.out.println("Mahasiswa: " + mahasiswa.nama);
-        System.out.println("Mata Kuliah: " + matakuliah.NamaMK);
-        System.out.println("Nilai Tugas: " + nilaiTugas);
-        System.out.println("Nilai UTS: " + nilaiUts);
-        System.out.println("Nilai UAS: " + nilaiUas);
-        hitungNilaiAkhir(); 
-        System.out.println("Nilai Akhir: " + nilaiAkhir);
-        System.out.println("------------------------");
+        hitungNilaiAkhir();
+        System.out.println("Mahasiswa: " + mahasiswa.nama + ", Mata Kuliah: " + matakuliah.NamaMK + "Nilai Akhir: " + nilaiAkhir);
     }
+
     
 }
